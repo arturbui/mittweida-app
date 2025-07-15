@@ -1,0 +1,164 @@
+.daily-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.daily-title {
+    font-size: 35px;
+    margin-bottom: 12px;
+    color: white;
+    text-align: center;
+}
+
+.daily-card {
+    background: #383C85;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    max-width: 350px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+.daily-content {
+    background: linear-gradient(to bottom right, #A1A6F8, #6DA1DD);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.daily-top-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.daily-icon {
+    width: 75px;
+    height: 75px;
+    background-image: url('/time-2623.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.upload-icon {
+    width: 75px;
+    height: 75px;
+    background-image: url('/upload-icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.daily-time {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.daily-task {
+    font-size: 25px;
+}
+
+.fun-facts-box {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    color: #000;
+    gap: 12px;
+}
+
+.custom-button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 30px;
+    background-color: #5A61DE;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 95%;
+    margin-top: 1rem;
+}
+
+.selected-image-container {
+    margin-bottom: 10px;
+}
+
+.selected-file-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.change-image-button {
+    margin-bottom: 10px;
+    background-color: #6B73FF !important;
+}
+
+.change-image-button:hover {
+    background-color: #5A61DE !important;
+}
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.popup-card {
+    background: linear-gradient(to bottom, #527CFC, #475B90);
+    color: white;
+    padding: 1rem;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    animation: fadeIn 0.3s ease-out;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+

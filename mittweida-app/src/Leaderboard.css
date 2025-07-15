@@ -1,0 +1,68 @@
+.title-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.back-button {
+    border: none;
+    filter: invert(1) hue-rotate(180deg);
+    cursor: pointer;
+    background-image: url('../public/left-arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: transparent;
+    margin-left: 1rem;
+
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.leaderboard-entry {
+    background: linear-gradient(to right, #8B7CF6, #6366F1);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.user-streak {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.rank-number {
+    font-size: 4rem;
+    font-weight: bold;
+}

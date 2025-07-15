@@ -1,0 +1,32 @@
+.welcome-title{
+    text-align: center;
+    display: flex;
+    font-size: 50px;
+    color: white;
+    flex-direction: column;
+    margin-top: 125px;
+}
+
+.welcome-description{
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    color: white;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.welcome-description-2{
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+    color: white;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.button-wrapper{
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
